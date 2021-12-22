@@ -1,0 +1,20 @@
+{
+	"fields": [
+		{
+			"fieldName": "clientId",
+			"fieldType": "String"
+		}
+	],
+	"relationships": [],
+	"entityType": "start-form",
+	"processBpmnId": "SupportIssueProcess",
+	"processEntityName": "SupportIssueProcess",
+	"domainEntityName": "SupportIssue",
+	"service": "serviceClass",
+	"dto": "mapstruct",
+	"jpaMetamodelFiltering": false,
+	"readOnly": false,
+	"pagination": "no",
+	"skipFakeData": true,
+	"name": "SupportIssueProcessStartForm"
+}

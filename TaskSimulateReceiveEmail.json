@@ -1,0 +1,31 @@
+{
+  "fields": [
+    {
+		"fieldName": "clientId",
+		"fieldType": "String",
+		"readonly": "true"
+    },
+    {
+		"fieldName": "issueInfo",
+		"fieldType": "String",
+		"readonly": "true"
+	},
+	{
+		"fieldName": "issueAditionalInfo",
+		"fieldType": "String"
+	}
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "SupportIssueProcess",
+  "processEntityName": "SupportIssueProcess",
+  "taskBpmnId": "TaskSimulateReceiveEmail",
+  "domainEntityName": "SupportIssue",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "TaskSimulateReceiveEmail",
+  "skipFakeData": true
+}

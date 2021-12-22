@@ -1,0 +1,71 @@
+{
+	"fields": [
+	{
+		"fieldName": "issueId",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "startDate",
+		"fieldType": "Date"
+	},
+	{
+		"fieldName": "endDate",
+		"fieldType": "Date"
+	},
+	{
+		"fieldName": "clientId",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "clientContact",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "issueInfo",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "issueAditionalInfo",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "complaintType",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "aux_string_1",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "aux_string_2",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "aux_double_1",
+		"fieldType": "Double"
+	},
+	{
+		"fieldName": "aux_double_2",
+		"fieldType": "Double"
+	},
+	{
+		"fieldName": "aux_integer_1",
+		"fieldType": "Integer"
+	},
+	{
+		"fieldName": "aux_integer_2",
+		"fieldType": "Integer"
+	}
+	],
+	"relationships": [],
+	"entityType": "process-binding",
+	"processBpmnId": "SupportIssueProcess",
+	"domainEntityName": "SupportIssue",
+	"service": "serviceClass",
+	"dto": "mapstruct",
+	"jpaMetamodelFiltering": false,
+	"readOnly": false,
+	"pagination": "no",
+	"skipFakeData": true,
+	"name": "SupportIssueProcess"
+}

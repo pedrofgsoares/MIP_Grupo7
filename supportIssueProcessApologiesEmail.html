@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.language}" lang="en">
+  <head>
+    <title>Apologies for the bad experience</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <p>Dear <span th:text="${supportIssue.clientId}">clientId</span></p>
+      The issue that was reported has been solved.
+      We apologize for the bad experience and hope to serve you well in the future.
+      Regards,
+      <br />
+      <em>GetAGuide Team</em>
+    </p>
+  </body>
+</html>

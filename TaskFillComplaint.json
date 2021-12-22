@@ -1,0 +1,25 @@
+{
+  "fields": [
+	{
+		"fieldName": "issueInfo",
+		"fieldType": "String"
+	},
+	{
+		"fieldName": "clientContact",
+		"fieldType": "String"
+	}
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "SupportIssueProcess",
+  "processEntityName": "SupportIssueProcess",
+  "taskBpmnId": "TaskFillComplaint",
+  "domainEntityName": "SupportIssue",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "TaskFillComplaint",
+  "skipFakeData": true
+}

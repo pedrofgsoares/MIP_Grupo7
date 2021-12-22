@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.language}" lang="en">
+  <head>
+    <title>We need more information to answer your issue</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <p>Dear <span th:text="${supportIssue.clientId}">clientId</span></p>
+      We need more information to answer your issue.
+      Please send us an email with more information.
+      Regards,
+      <br />
+      <em>GetAGuide Team</em>
+    </p>
+  </body>
+</html>
